@@ -1,0 +1,220 @@
+/* General Body Text */
+.App {
+  font-family: 'Forum', serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+h1.logo {
+  font-size: 2.5rem;
+  margin: 0;
+  color: #333;
+}
+
+.nav-link {
+  color: #333; /* Серый цвет */
+  margin: 0 10px;
+  text-transform: uppercase;
+  text-decoration: none; /* Убрать подчеркивание */
+}
+
+.nav-link:hover {
+  color: #80c715; /* Зеленый цвет при наведении */
+}
+
+/* Banner Section */
+.banner {
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-title {
+  font-size: 3rem;
+  color: #fff;
+  animation: fadeInUp 2s; /* Пример анимации */
+}
+
+/* Our Sets Section */
+.our-sets {
+  padding: 5rem 0;
+}
+
+.our-sets .section-title {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.our-sets .set-card {
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s; /* Анимация увеличения и тени */
+}
+
+.our-sets .set-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Эффект тени при наведении */
+}
+
+.our-sets .set-card img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.our-sets .set-card h3 {
+  font-size: 1.25rem;
+}
+
+.our-sets .set-card p {
+  font-size: 1rem;
+  color: #888;
+}
+
+/* Our Advantage Section */
+.our-advantage {
+  padding: 5rem 0;
+  background-color: #f9f9f9;
+}
+
+.our-advantage .section-title {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.our-advantage h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.our-advantage p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Our Story Section */
+.our-story {
+  padding: 5rem 0;
+}
+
+.our-story h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.our-story p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Our Products Section */
+.our-products {
+  padding: 5rem 0;
+  background-color: #f9f9f9;
+}
+
+.our-products .section-title {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.our-products .product-card {
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s; /* Анимация увеличения и тени */
+}
+
+.our-products .product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Эффект тени при наведении */
+}
+
+.our-products .product-card img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.our-products .product-card h3 {
+  font-size: 1.25rem;
+}
+
+.our-products .product-card p {
+  font-size: 1rem;
+  color: #888;
+}
+
+/* Concierge Section */
+.concierge {
+  padding: 5rem 0;
+}
+
+.concierge h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.concierge p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Contact Form Section */
+.contact-form .form-control {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form .form-control.mb-2 {
+  margin-bottom: 15px;
+}
+
+.contact-form button {
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+/* Footer Section */
+.footer {
+  padding: 5rem 0;
+  background-color: #333;
+  color: #fff;
+}
+
+.footer form {
+  margin-bottom: 2rem;
+}
+
+.footer .form-control {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.footer .footer-links a {
+  color: #ccc;
+  margin: 0 10px;
+  text-transform: uppercase;
+}
+
+.footer .footer-links a:hover {
+  color: #fff;
+}
+
+/* CSS Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animate.css library integration */
+@import 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css';
